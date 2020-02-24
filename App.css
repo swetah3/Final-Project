@@ -1,0 +1,55 @@
+html{
+  background-color: darkgray;
+  
+}
+
+
+#root{
+  background-color: darkgray;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .screenSize{
+    margin:10% 10% 100% 10%;
+    width:80%;
+  }
+  
+}
+
+@media only screen and (min-width: 502px) {
+  .screenSize{
+    margin:10% 35% 100% 40%;
+    width:25%;
+  }
+}
+text-primary::-webkit-input-placeholder{
+  color:#007BFF;
+  opacity: 1;
+  
+}
+
+text-primary::-ms-input-placeholder{
+  color:#007BFF;
+  opacity: 1;
+  
+}
+.float-image{
+  background-color:rgb(245, 235, 235);
+  position:absolute;
+  margin:3% 0% 0% 34%;
+  padding:6px;
+  height:60px;
+  width:60px;
+  z-index: 2;
+
+}
+.form-item{
+  padding-top: 7%;
+}
+.custom-btn{
+  width: 100%;
+  
+}
+
+
