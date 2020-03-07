@@ -7,8 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="">
-     <Signup/>  */}
-     {/* <Login  images="images/login.png"/>  */}
+     {/* <Signup/>  */} */}
+     <Login  images="images/login.png"/> 
     </div>
   );
 }
